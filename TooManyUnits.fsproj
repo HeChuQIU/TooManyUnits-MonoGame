@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Content\Content.mgcb" />
+    <Content Include="Content\animtest.png" />
+    <Content Include="Content\ball.png" />
+    <Content Include="Content\obstacle.png" />
+    <Content Include="Content\player.png" />
+    <None Include="Content\bin\DesktopGL\Content\animtest.xnb" />
+    <None Include="Content\bin\DesktopGL\Content\ball.xnb" />
+    <None Include="Content\bin\DesktopGL\Content\obstacle.xnb" />
+    <None Include="Content\bin\DesktopGL\Content\player.xnb" />
+    <None Include="Content\obj\DesktopGL\net6.0\Content\.mgstats" />
+    <None Include="Content\obj\DesktopGL\net8.0\Content\.mgcontent" />
+    <None Include="Content\obj\DesktopGL\net8.0\Content\.mgstats" />
+    <None Include="Content\obj\DesktopGL\net8.0\Content\animtest.mgcontent" />
+    <None Include="Content\obj\DesktopGL\net8.0\Content\ball.mgcontent" />
+    <None Include="Content\obj\DesktopGL\net8.0\Content\obstacle.mgcontent" />
+    <None Include="Content\obj\DesktopGL\net8.0\Content\player.mgcontent" />
+    <Compile Include="PlatformerActors.fs" />
+    <Compile Include="PlatformerGame.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup />
+
+  <ItemGroup />
+
+	<ItemGroup>
+		<PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.1.303" />
+		<PackageReference Include="MonoGame.Content.Builder.Task" Version="3.8.1.303" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Update="FSharp.Core" Version="8.0.101" />
+	</ItemGroup>
+
+</Project>
